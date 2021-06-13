@@ -10,8 +10,228 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    
-    
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////
+                                        SECTION-1: NAVBAR START HERE
+     ////////////////////////////////////////////////////////////////////////////////////////-->
+     <nav class="navbar navbar-expand-lg navbar-light navbar-bg ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Bagpack">Bagpack</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#Subscribe">Subscribe</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- ////////////////////////////////////////////////////////////////////////////////////////
+                                        SECTION-2: SLIDER START HERE
+     ////////////////////////////////////////////////////////////////////////////////////////-->
+    <div class="container py-5">
+     <div id="carouselExampleControls" class="carousel slide bg-slider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+              <div class="row align-items-center">
+                  <div class="col-md-7 col-lg-7 col-lg-7">
+                      <h2>Cool Dude Headphone</h2>
+                      <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                      <h3>$420</h3>
+                      <button class="buy-now">Buy Now</button>
+                  </div>
+                  <div class="col-md-12 col-lg-5 col-lg-5">
+                    <img src="banner-images/headphone.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-7 col-lg-7">
+                    <h2>Mega LCD TV For Sports</h2>
+                    <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                    <h3>$1200</h3>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+                <div class="col-md-5 col-lg-5 col-lg-5">
+                    <img src="banner-images/tv.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-7 col-lg-7">
+                    <h2>X-Box for your living room</h2>
+                    <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
+                    <h3>$600</h3>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+                <div class="col-md-5 col-lg-5 col-lg-5">
+                    <img src="banner-images/xbox.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////
+                                        SECTION-3: CATEGORIES START HERE
+     ////////////////////////////////////////////////////////////////////////////////////////-->
+     <div class="container py-5">
+         <div class="row">
+             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+                 <div class="One Cat">
+                    <h3>Watch</h3>
+                    <img src="categories/watch.png" alt="" class="img-fluid">
+                 </div>
+             </div>
+
+             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4  ">
+                <div class="Two Cat">
+                    <h3>Bag</h3>
+                    <img src="categories/bag.png" alt="" class="img-fluid">
+                </div>
+             </div>
+
+            <div class="col-sm-6 col-md-12 col-lg-4 col-xl-4">
+                <div class="Three Cat">
+                    <h3>Shoes</h3>
+                    <img src="categories/shoes.png" alt="" class="img-fluid">
+                </div>
+            </div>
+             
+         </div>
+     </div>
+    <!-- //////////////////////////////////////////////////////////////////////////////////////
+                                        SECTION-4: SHOES AREA START HERE
+     ////////////////////////////////////////////////////////////////////////////////////////-->
+     <div class="container shoes py-5" id="Shoes">
+         <h2>Shoes</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Supply 350</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                      <p class="prices">$120</p>
+                      <button class="buy-now">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nike 360</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      <p class="prices">$320</p>
+                      <button class="buy-now">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Red Airmax</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                      <p class="prices">$350</p>
+                      <button class="buy-now">Buy Now</button>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+     </div>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////
+                                        SECTION-5: BAGPACK AREA START HERE
+     ////////////////////////////////////////////////////////////////////////////////////////-->
+     <div class="container bagpack py-5" id="Bagpack">
+        <h2>Bagpack</h2>
+           <div class="row row-cols-1 row-cols-md-3 g-4">
+               <div class="col">
+                 <div class="card">
+                   <img src="bags/bag-1.png" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Red Laltu Bag</h5>
+                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                     <p class="prices">$120</p>
+                     <button class="buy-now">Buy Now</button>
+                   </div>
+                 </div>
+               </div>
+               <div class="col">
+                 <div class="card">
+                   <img src="bags/bag-2.png" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Nike 360</h5>
+                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                     <p class="prices">$320</p>
+                     <button class="buy-now">Buy Now</button>
+                   </div>
+                 </div>
+               </div>
+               <div class="col">
+                 <div class="card">
+                   <img src="bags/bag-3.png" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Red Airmax</h5>
+                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+                     <p class="prices">$350</p>
+                     <button class="buy-now">Buy Now</button>
+                   </div>
+                 </div>
+               </div> 
+             </div>
+    </div>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////
+                                        SECTION-6: SUBSCRIBE AREA START HERE
+     ////////////////////////////////////////////////////////////////////////////////////////-->
+     <div class="container subscribe py-5 mb-5 bg-slider justify-content-center align-items-center d-flex" id="Subscribe">
+         <div class="subscribe-text">
+             <h2>LET'S STAY IN TOUCH</h2>
+             <p>Get updates on sales, specials and more</p>
+             <input type="text" class="form-control mb-3 input-custom" placeholder="Enter Your E-mail">
+             <button class="buy-now">Submit</button>
+         </div>
+     </div>
+
+     <!-- //////////////////////////////////////////////////////////////////////////////////////
+                                        SECTION-7: FOOTER AREA START HERE
+     ////////////////////////////////////////////////////////////////////////////////////////-->
+     <footer>
+         <div class="container text-center">
+             <p class="text-muted mb-0"> ©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria. </p>
+        </div>
+     </footer>
+
     <script src="JS/bootstrap.bundle.min.js"></script>
 </body>
 </html>
